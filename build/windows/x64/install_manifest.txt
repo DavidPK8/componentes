@@ -1,0 +1,13 @@
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/icudtl.dat
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/flutter_windows.dll
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/images/carolina.jpg
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/images/mundo.jpg
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/images/pikachu.jpg
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

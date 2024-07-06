@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Flutter layout demo';
+    const String appTitle = 'Lugares Turisticos';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -18,32 +18,35 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               TitleSection(
-                  name: 'Oeschinen Lake Campground',
-                  location: 'Kandersteg, Switzerland'),
+                  name: 'Laguna de Quilotoa', location: 'Quito, Ecuador'),
               ButtonSection(),
               TextSection(
-                description: "Descripcion de Ciudad"),
-              ImageSection(image: 'images/pikachu.jpg'),
+                  description:
+                      "El Quilotoa es una de las 15 lagunas de origen volcánico más hermosas del mundo, debido a su color verde esmeralda, de tonos variables por sus minerales disueltos en sus aguas. Su temperatura bordea los 12 grados centígrados, de enero a mayo las lluvias son frecuentes."),
+              ImageSection(image: 'images/laguna.jpg'),
               TitleSection(name: 'La Carolina', location: 'Quito, Ecuador'),
               ButtonSection(),
               TextSection(
-                description: "Descripcion de Ciudad"),
-              ImageSection(image: 'images/pikachu.jpg'),
+                  description:
+                      "El parque La Carolina es un espacio verde de carácter público en la ciudad de Quito, capital de la República del Ecuador. Está ubicado en la zona de Iñaquito, en el corazón financiero y empresarial de la urbe y es, a su vez, una de las áreas recreacionales más importantes del área metropolitana."),
+              ImageSection(image: 'images/carolina.jpg'),
               TitleSection(name: 'Mitad del Mundo', location: 'Quito, Ecuador'),
               ButtonSection(),
               TextSection(
-                description: "Descripcion de Ciudad"),
-              ImageSection(image: 'images/pikachu.jpg'),
-              TitleSection(name: 'Politecnica', location: 'Quito, Ecuador'),
+                  description:
+                      "La Ciudad Mitad del Mundo es un complejo turístico y cultural propiedad de la prefectura de la provincia de Pichincha. Está situado en la parroquia de San Antonio del Distrito Metropolitano de Quito, al norte de la ciudad de Quito."),
+              ImageSection(image: 'images/mundo.jpg'),
+              TitleSection(
+                  name: 'Volcan Chimborazo', location: 'Chimborazo, Ecuador'),
               ButtonSection(),
               TextSection(
-                description: "Descripcion de Ciudad"),
-              ImageSection(image: 'images/pikachu.jpg'),
-              TitleSection(name: 'Quicentro Norte', location: 'Quito, Ecuador'),
+                  description:
+                      "El Chimborazo es un estratovolcán potencialmente activo, situado en el centro de Ecuador, en la Provincia de Chimborazo. Perteneciente a la cordillera de los Andes, específicamente a los Andes septentrionales, cuenta con una altitud de 6263,47 m s. n. m, por lo que es la montaña más alta del Ecuador y de los Andes septentrionales."),
+              ImageSection(image: 'images/volcan.jpg'),
+              TitleSection(name: 'Islas Galapagos', location: 'Galapagos, Ecuador'),
               ButtonSection(),
-              TextSection(
-                description: "Descripcion de Ciudad"),
-              ImageSection(image: 'images/pikachu.jpg'),
+              TextSection(description: "Las islas Galápagos son la segunda reserva marina más grande del planeta​ fueron declaradas Patrimonio de la Humanidad en 1978 por la Unesco. El archipiélago tiene como mayor fuente de ingresos el turismo y recibe 200 000 turistas al año."),
+              ImageSection(image: 'images/galapagos.jpg'),
             ],
           ),
         ),
@@ -187,18 +190,18 @@ class TextSection extends StatelessWidget {
   }
 }
 
-class ImageSection extends StatelessWidget{
+class ImageSection extends StatelessWidget {
   const ImageSection({super.key, required this.image});
 
   final String image;
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Image.asset(
       image,
       width: 600,
       height: 200,
       fit: BoxFit.cover,
-      );
+    );
   }
 }

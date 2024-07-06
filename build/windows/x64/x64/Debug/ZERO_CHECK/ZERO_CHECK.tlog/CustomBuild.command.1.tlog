@@ -1,0 +1,10 @@
+^E:\PROYECTOS UNIVERSIDAD\MOVILES\FLUTTER\COMPONENTES\BUILD\WINDOWS\X64\CMAKEFILES\06A3CF6EF97053CD64B11572A0BCA5E0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/Proyectos Universidad/Moviles/Flutter/componentes/windows" "-BE:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Proyectos Universidad/Moviles/Flutter/componentes/build/windows/x64/componentes.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
